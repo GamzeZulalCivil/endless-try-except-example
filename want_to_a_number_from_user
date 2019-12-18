@@ -1,0 +1,7 @@
+def want_number():
+  try:
+    n=int(input("Write a number: "))
+  except ValueError:
+    print("Please write a number.")
+    sayi_alma()
+  return (n)
