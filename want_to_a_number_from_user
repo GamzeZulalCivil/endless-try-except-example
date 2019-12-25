@@ -3,5 +3,5 @@ def want_number():
     n=int(input("Write a number: "))
   except ValueError:
     print("Please write a number.")
-    sayi_alma()
+    want_number()
   return (n)
